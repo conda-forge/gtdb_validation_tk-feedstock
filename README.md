@@ -122,6 +122,3 @@ Feedstock Maintainers
 * [@aaronmussig](https://github.com/aaronmussig/)
 * [@dparks1134](https://github.com/dparks1134/)
 
-
-<!-- dummy commit to enable rerendering -->
-
