@@ -1,5 +1,5 @@
 {% set name = "gtdb_validation_tk" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 852db19529d312856dafa019a74d460b605d3a06a004be230d6a8568b81c8018
+  sha256: 8591d2079cbe4ef1782fde583c2773a1d2b61d6d32e9f35f90fa83cc3a5ccc08
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - gtdb_validation_tk = gtdb_validation_tk.__main__:main
 
