@@ -5,13 +5,11 @@ Home: https://github.com/Ecogenomics/gtdb_validation_tk
 
 Package license: GPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/gtdb_validation_tk-feedstock/blob/master/LICENSE.txt)
 
 Summary: This toolkit provides functionality for validation the GTDB Taxonomy.
 It is primarily intended to be used by the GTDB curation team, but has been
 made available in case others find it useful.
-
-
 
 
 Current build status
