@@ -1,13 +1,13 @@
 {% set name = "gtdb_validation_tk" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.17" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 852db19529d312856dafa019a74d460b605d3a06a004be230d6a8568b81c8018
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 19c2a986d86783eb678b245c401a9e0f753e41a066ba2d6b367f1ff2419296aa
 
 build:
   noarch: python
