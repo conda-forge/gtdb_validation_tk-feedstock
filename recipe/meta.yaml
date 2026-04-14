@@ -18,10 +18,10 @@ build:
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - numpy >=1.8.0
     - biolib >=0.1.6
     - dendropy >=4.0.0
@@ -33,6 +33,10 @@ test:
     - gtdb_validation_tk
   commands:
     - gtdb_validation_tk -h
+    - pip check
+  requires:
+    - python {{ python_min }}
+    - pip
 
 about:
   home: https://github.com/Ecogenomics/gtdb_validation_tk
